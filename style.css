@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing :border-box;
+}
+/* body{
+  
+} */
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction : column;
+  gap: 2rem;
+}
+.first_heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  box-shadow : 1px 1px 10px black;
+  padding :1rem 2rem;
+}
+.first_heading #h3{
+  font-size: 4rem;
+}
+h1{
+  
+  padding :1rem 2rem;
+  box-shadow : 1px 1px 10px black;
+  font-family: 'Josefin Sans', sans-serif;
+}
+#key_name{
+  color : green;
+  font-size : 4rem;
+}
+#key_Number{
+  color : green;
+  font-size : 4rem;
+}
